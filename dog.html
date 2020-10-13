@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8" />
+ 	<title>Dog Finder</title>
+	 <link rel="stylesheet" type="text/css" href="dog.css">
+	 
+	 <link href="https://fonts.googleapis.com/css?family=Comfortaa|Josefin+Slab:700" rel="stylesheet">
+	
+
+</head>
+<body>
+
+<header>
+ <h1>dog FINDER</h1>
+
+</header>
+<hr>
+<div class="widgets">
+		Breed -> 
+<select name="breed" id="breeds" class="styled-select yellow semi-square"></select>
+</div>
+
+<p><button type="button" class="inline" id="favBtn" >Favourite</button></p>
+
+<p id="fav">No favourite yet</p>
+
+<div class="widgets" id="numResults">
+	Number of results -> 
+	<select id="limit" class="styled-select yellow semi-square" >
+		<option value="5">5</option>
+		<option value="10" selected>10</option>
+		<option value="25">25</option>
+		<option value="50">50</option>
+		<option value="100">100</option>
+	</select>
+</div>
+
+
+<p><button type="button" class="inline" id="search" >Search!</button></p>
+<p><button type="button" class="inline" id="randomBtn" >Surprise!</button></p>
+
+<br>
+<p id="debug"></p>
+
+<hr >
+
+<h2>Results</h2>
+
+ <div id="content">
+ <p>No data yet!</p>
+ </div>
+<footer>
+	<div id="footer">
+	<p><a href="documentation.html"  target="_blank">Documentation</a></p>
+</div>
+</footer>
+ <script src="main.js"></script>
+
+</body>
+</html>
